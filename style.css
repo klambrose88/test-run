@@ -1,0 +1,132 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 5px 25px;
+  font-size: 15px;
+  margin: auto;
+  max-width: 1400px;
+  color: black;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+.fixed {
+  position: fixed;
+  width: 15%;
+  height:100%;
+  background-color: rgba(242, 242, 242, 0.5);
+}
+
+.fixed footer {
+  position:absolute;
+  bottom: 5px;
+  left: 10%;
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: "Muli";
+  font-size: 32px;
+	margin-bottom: 20px;
+	padding:5px;
+  
+}
+
+
+nav {
+  margin: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px 10px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+nav li{
+  display:flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 10px 0px;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+.home img {
+  margin: 0 20%;
+  width: 75%;
+  padding: 0px;
+}
+
+.map {
+  width: 100%;
+}
+
+.content {
+  display: in-line-block;
+  margin-left: 25%;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.content img {
+  width: 100%;
+}
+
+.collage {
+  margin:20px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  align-items: center; 
+}
+
+.collage img {
+  height:350px;
+	width:350px;
+	margin:10px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+footer {
+  position: fixed;
+}
+
+.right {
+  
+}
+
+.left {
+  
+}
+
+.bloghead {
+  
+}
+
+.content h3 {
+  background-color: black;
+  color: white;
+}
+
+.blogimg img {
+  height:350px;
+	width:250px;
+	padding: 0 10px;
+	
+}
